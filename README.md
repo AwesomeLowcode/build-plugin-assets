@@ -10,6 +10,14 @@ You can load the assets.json with [lowcode-boot](https://github.com/AwesomeLowco
 
 ## Usage
 
+### Init
+
+init an empty project.
+
+```
+npm init
+```
+
 ### Install
 
 ```
