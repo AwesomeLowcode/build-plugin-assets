@@ -1,5 +1,13 @@
 ## Overview
 
+### Step One
+
+Build an assets.json by a json manifest file which includes the information of plugins, setters, components or other lowcode asset; so that you can dynamic load almost all lowcode assets.
+
+### Step Two
+
+You can load the assets.json with [lowcode-boot](https://github.com/AwesomeLowcode/lowcode-boot) easily; but if you don't want to use `lowcode-boot`, you can load it by your self, just take a look at the [implementation in lowcode-boot](https://github.com/AwesomeLowcode/lowcode-boot/blob/18ea77a137ed7fa67c1add6589ad29d1f538ab8c/src/index.tsx#L38).
+
 ## Usage
 
 ### Install
